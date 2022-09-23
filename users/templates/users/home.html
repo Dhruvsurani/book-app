@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book App | Home</title>
+</head>
+<body>
+{% if user.is_superuser %}
+    <p>Hello, admin.</p>
+{% else %}
+    <p>Hello, ordinary visitor.</p>
+{% endif %}
+<a href="{% url 'logout' %}?next={% url 'index' %}"> Logout</a>
+</body>
+</html>
