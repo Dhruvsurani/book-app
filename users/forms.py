@@ -25,14 +25,3 @@ class SignUp(UserCreationForm):
             'password2'
         ]
 
-
-class LoginForm(AuthenticationForm):
-
-    choices = forms.ChoiceField(choices=my_choices)
-
-    class Meta:
-        fields = [
-            'username',
-            'choices',
-            'password'
-        ]

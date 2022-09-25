@@ -1,7 +1,7 @@
 from django.contrib.auth.views import LoginView
 from django.shortcuts import render
 from django.views.generic import TemplateView, CreateView
-from .forms import SignUp, LoginForm
+from .forms import SignUp
 from django.urls import reverse_lazy
 
 
@@ -22,7 +22,4 @@ class HomeView(TemplateView):
     template_name = 'users/home.html'
 
 
-class CustomLoginView(LoginView):
-    template_name = 'users/login.html'
-    success_url = reverse_lazy('home')
-    form_class = LoginForm
+
