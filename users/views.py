@@ -8,9 +8,6 @@ from django.urls import reverse_lazy
 # Create your views here.
 
 
-class IndexView(TemplateView):
-    template_name = 'users/base.html'
-
 
 class SignUpView(CreateView):
     form_class = SignUp

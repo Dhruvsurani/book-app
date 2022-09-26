@@ -1,0 +1,25 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+    <div class="container-fluid px-1 py-5 mx-auto">
+		<div class="row d-flex justify-content-center">
+			<div class="col-xl-7 col-lg-8 col-md-9 col-10 text-center">
+				<h3>Add Book</h3>
+
+				<div class="card col-lg-8 d-inline-flex ">
+
+					<form class="form-card" method="POST">
+
+                        {% csrf_token %}
+						{{ form.as_p }}
+
+						<div class="row justify-content-center">
+							<div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">Submit</button> </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
