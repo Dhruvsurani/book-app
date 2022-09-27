@@ -8,13 +8,11 @@
   <p><strong>ISBN:</strong> {{ book_list.isbn }}</p>
 
   <div style="margin-left:20px;margin-top:20px">
-    <h4>Copies</h4>
+    <h4>Copies = {{ book_list.total_copies }}</h4>
     {% if user.is_superuser %}
-<!--                <a class="btn btn-danger" href="'book_delete' pk=book_list.id ">DELETE</a>-->
                 <a class="btn btn-danger" href="">DELETE</a>
-<!--                <a class="btn btn-success" hurl 'book_update' pk=book_list.id ">Update</a>>-->
                 <a class="btn btn-success" href="">Update</a>
     {% endif %}
-
+    <a class="btn btn-success" href="">Rent Now</a>
   </div>
 {% endblock %}
