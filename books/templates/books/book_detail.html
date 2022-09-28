@@ -5,14 +5,56 @@
 
   <p><strong>Author:</strong>{{ book_list.author }}</p>
   <p><strong>Summary:</strong> {{ book_list.summary }}</p>
-  <p><strong>ISBN:</strong> {{ book_list.isbn }}</p>
-
+  <p><strong>ISBN:</strong> {{ book_list.slug }}</p>
+  <p><strong>Rent:</strong> {{ book_list.book_rent }}</p>
   <div style="margin-left:20px;margin-top:20px">
     <h4>Copies = {{ book_list.total_copies }}</h4>
     {% if user.is_superuser %}
                 <a class="btn btn-danger" href="">DELETE</a>
                 <a class="btn btn-success" href="">Update</a>
     {% endif %}
-    <a class="btn btn-success" href="">Rent Now</a>
+    <a class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter" data-whatever="@getbootstrap">Rent Now</a>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Rent Confirm</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="{% url 'rent-book' %}">
+
+              {% csrf_token %}
+<!--              {{ form.as_p }}-->
+              <div class="form-group">
+                <label  class="col-form-label">user  :</label> <b>{{request.user.username}}</b>
+                <input type="hidden" class="form-control" id="user" name="user" value={{request.user.id}} >
+              </div>
+              <div class="form-group">
+                <label  class="col-form-label">Title :</label><b>{{book_list.title}}</b>
+                <input type="hidden" class="form-control" id="book" name="book" value={{book_list.id}} >
+              </div>
+              <div class="form-group">
+                <label  class="col-form-label">ISBN :</label><b>{{book_list.slug}}</b>
+<!--                <input type="text" class="form-control" id="book_isbn" value={{book_list.slug}} >-->
+              </div>
+              <div class="form-group">
+                <label  class="col-form-label">Rent :</label><b>{{book_list.book_rent}}</b>
+<!--                <input type="text" class="form-control" id="book_rent" value={{book_list.book_rent}} >-->
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Confirm</button>
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 {% endblock %}
