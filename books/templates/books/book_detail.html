@@ -1,19 +1,29 @@
 {% extends "users/base.html" %}
 
 {% block content %}
-  <h1>Title: {{ book_list.title }}</h1>
-
-  <p><strong>Author:</strong>{{ book_list.author }}</p>
-  <p><strong>Summary:</strong> {{ book_list.summary }}</p>
-  <p><strong>ISBN:</strong> {{ book_list.slug }}</p>
-  <p><strong>Rent:</strong> {{ book_list.book_rent }}</p>
-  <div style="margin-left:20px;margin-top:20px">
-    <h4>Copies = {{ book_list.total_copies }}</h4>
+<div class="card text-center">
+  <div class="card-header">
+    <h5><strong>{{ book_list.title }}</strong></h5>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title"><strong>Author:</strong>{{ book_list.author }}</h5>
+    <h5 class="card-title"><strong>Summary:</strong> {{ book_list.summary }}</h5>
+    <h5 class="card-title"><strong>ISBN:</strong> {{ book_list.slug }}</h5>
+    <h5 class="card-title"><strong>Rent:</strong> {{ book_list.book_rent }} Rs (Per hour charge)</h5>
+    <h5 class="card-title"><strong>Copies:</strong> {{ book_list.total_copies }}</h5>
     {% if user.is_superuser %}
-                <a class="btn btn-danger" href="">DELETE</a>
-                <a class="btn btn-success" href="">Update</a>
+      <a class="btn btn-danger" href="">DELETE</a>
+      <a class="btn btn-success" href="">Update</a>
+
     {% endif %}
     <a class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter" data-whatever="@getbootstrap">Rent Now</a>
+  </div>
+</div>
+
+
+
+
+
 
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">

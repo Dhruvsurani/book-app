@@ -2,11 +2,6 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 
-my_choices = (
-    ('1', "Admin"),
-    ('2', "Buyer")
-)
-
 
 class SignUp(UserCreationForm):
     username = forms.CharField(max_length=40)
