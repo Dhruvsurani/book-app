@@ -12,16 +12,41 @@
     <h5 class="card-title"><strong>Rent:</strong> {{ book_list.book_rent }} Rs (Per hour charge)</h5>
     <h5 class="card-title"><strong>Copies:</strong> {{ book_list.total_copies }}</h5>
     {% if user.is_superuser %}
-      <a class="btn btn-danger" href="">DELETE</a>
-      <a class="btn btn-success" href="">Update</a>
+      <a class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter1" data-whatever="@getbootstrap">DELETE</a>
+      <a class="btn btn-success" href="{% url 'book-update' book_list.slug %}">Update</a>
 
     {% endif %}
-    <a class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter" data-whatever="@getbootstrap">Rent Now</a>
+    {% if request.user.is_authenticated %}
+      {% if request.user not in book_list.rented_users.all %}
+        {% if book_list.total_copies > 0 %}
+
+          <a class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter" data-whatever="@getbootstrap">Rent Now</a>
+
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
   </div>
 </div>
 
-
-
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel1">Rent Confirm</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Are you sure you want to delete "{{ object }}"?</p>
+            <div class="text-right">
+            <a class="btn btn-success" href="{% url 'book-delete' %}">Confirm</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
 
 
 

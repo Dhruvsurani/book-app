@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'users',
     'books',
     'django_crontab',
+
 ]
 
 MIDDLEWARE = [
@@ -127,3 +128,8 @@ LOGOUT_REDIRECT_URL = 'book_list'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRONJOBS = [
+    ('0 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
+]
+

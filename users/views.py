@@ -11,12 +11,10 @@ from django.urls import reverse_lazy
 
 class SignUpView(CreateView):
     form_class = SignUp
-    success_url = reverse_lazy('index')
+    success_url = reverse_lazy('book_list')
     template_name = 'users/register.html'
 
 
-class HomeView(TemplateView):
-    template_name = 'users/home.html'
 
 
 

@@ -1,0 +1,50 @@
+{% extends "users/base.html" %}
+
+{% block content %}
+
+    <h1 class="text-center mb-5">Book List</h1>
+
+    {% if rented_book %}
+    <div class="container">
+        <div class="row">
+
+          <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">User name</th>
+                  <th scope="col">Book Name</th>
+                  <th scope="col">Total Hours</th>
+                  <th scope="col">Issue Time</th>
+                  <th scope="col">Return Time</th>
+                  <th scope="col">Total Rent</th>
+                  <th scope="col">Return Book</th>
+                </tr>
+              </thead>
+              <tbody>
+              {% for book in rented_book %}
+              {% if book.user == request.user %}
+                <tr>
+                  <th scope="row">{{ book.id }}</th>
+                  <td>{{ book.user }}</td>
+                  <td>{{ book.book }}</td>
+                  <td>{{ book.rent_hours }}</td>
+                  <td>{{ book.issue_time }}</td>
+                  <td>{{ book.return_time }}</td>
+                  <td>{{ book.total_rent }}</td>
+                  <td><button class="btn btn-primary btn-sm">Return</button></td>
+                </tr>
+              {% endif %}
+              {% endfor %}
+              </tbody>
+            </table>
+
+
+
+        </div>
+    </div>
+
+    {% else %}
+      <p class=" bg bg-white">There are no books.</p>
+    {% endif %}       
+{% endblock %}
