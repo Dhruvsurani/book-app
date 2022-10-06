@@ -109,9 +109,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
+
+USE_L10N = True
 
 USE_TZ = True
 
@@ -130,6 +132,6 @@ LOGOUT_REDIRECT_URL = 'book_list'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRONJOBS = [
-    ('0 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
+    ('*/1 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
 ]
 

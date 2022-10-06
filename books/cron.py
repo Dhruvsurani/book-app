@@ -1,10 +1,12 @@
+from django.db.models import Q
+
 from books.models import RentalDetail, Book
 
 
 def rent_total():
 
     print('\nhello')
-    rent_queryset = RentalDetail.objects.filter(return_time=None)
+    rent_queryset = RentalDetail.objects.filter(Q(return_time=None) & Q(status='Approved'))
 
     for i in rent_queryset:
         i.rent_hours += 1

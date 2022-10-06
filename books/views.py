@@ -2,6 +2,7 @@ import datetime
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
+from django.db.models import Q
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
@@ -115,4 +116,24 @@ class UserRentedBookListView(ListView):
     paginate_by = 20
 
     def get_queryset(self):
-        return RentalDetail.objects.filter(user=self.request.user)
+        return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved'))
+
+
+class RentRequestView(ListView):
+    model = RentalDetail
+    context_object_name = 'rent_request'
+    template_name = 'books/rent_request_list.html'
+
+    def get_queryset(self):
+        return RentalDetail.objects.all()
+
+
+class RentRequestUpdateView(UpdateView):
+    model = RentalDetail
+    fields = [
+        'status'
+    ]
+
+    def post(self, request, *args, **kwargs):
+        RentalDetail.objects.filter(id=request.POST['book_id']).update(status='Approved')
+        return HttpResponseRedirect(reverse_lazy('rent-requestlist'))

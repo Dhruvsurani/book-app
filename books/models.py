@@ -46,6 +46,10 @@ class RentalDetail(models.Model):
     issue_time = models.TimeField()
     return_time = models.TimeField(null=True)
     total_rent = models.IntegerField(default=0)
+    status_choices = (('Approved', 'Approved'),
+                      ('Not Approved', 'Not Approved'),
+                      )
+    status = models.CharField(max_length=100, choices=status_choices, default='Not Approved')
 
     def __str__(self):
         return str(self.pk)
