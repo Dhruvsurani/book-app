@@ -2,7 +2,7 @@
 
 {% block content %}
 
-    <h1 class="text-center mb-5">Book List</h1>
+    <h1 class="text-center mb-5">Rented Book List</h1>
 
     {% if rented_book %}
     <div class="container">
@@ -23,7 +23,7 @@
               </thead>
               <tbody>
               {% for book in rented_book %}
-              {% if book.user == request.user %}
+
                 <tr>
                   <th scope="row">{{ book.id }}</th>
                   <td>{{ book.user }}</td>
@@ -32,9 +32,18 @@
                   <td>{{ book.issue_time }}</td>
                   <td>{{ book.return_time }}</td>
                   <td>{{ book.total_rent }}</td>
-                  <td><button class="btn btn-primary btn-sm">Return</button></td>
+                  <td>
+                      <form action="{% url 'return-book' book.id %}" method="post">
+                          {% csrf_token %}
+                          <input type="hidden" value="{{ book.id }}" name="book_id">
+                          <input type="hidden" value="{{ book.title }}" name="book_title">
+                          {% if book.return_time == None %}
+                          <button type="submit" class="btn btn-primary btn-sm">Return</button>
+                          {% endif %}
+                      </form>
+                      </td>
                 </tr>
-              {% endif %}
+
               {% endfor %}
               </tbody>
             </table>

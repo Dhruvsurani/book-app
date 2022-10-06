@@ -1,3 +1,5 @@
+import datetime
+
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
 from django.http import HttpResponse, HttpResponseRedirect
@@ -77,7 +79,6 @@ class RentBookView(CreateView):
 
     def post(self, request, *args, **kwargs):
         form = RentBookForm(request.POST)
-        print(form.is_valid())
         if form.is_valid():
             form.save()
             book = Book.objects.get(title=form.cleaned_data['book'])
@@ -92,25 +93,26 @@ class RentBookView(CreateView):
         return HttpResponseRedirect(reverse_lazy('book_list'))
 
 
+class ReturnBookView(UpdateView):
+    model = RentalDetail
+    fields = [
+        'return_time'
+    ]
+
+    def post(self, request, *args, **kwargs):
+        RentalDetail.objects.filter(id=request.POST['book_id']).update(return_time=datetime.datetime.now())
+        title = RentalDetail.objects.get(id=request.POST['book_id'])
+        book = title.book.id
+        rented_user = Book.objects.get(id=book)
+        rented_user.rented_users.remove(request.user)
+        return HttpResponseRedirect(reverse_lazy('rented-booklist'))
+
+
 class UserRentedBookListView(ListView):
     model = RentalDetail
     template_name = 'books/rented_user_list.html'
     context_object_name = 'rented_book'
-    paginate_by = 5
+    paginate_by = 20
 
-    # def get_queryset(self, *args, **kwargs):
-    #     user = get_object_or_404(User, username=self.kwargs.get('username'))
-    #     return RentalDetail.objects.get(user=user).order_by('-date_posted')
-# class BookUpdateView(UpdateView):
-#     model = RentalDetail
-#     fields = ['penalty']
-#     slug_field = 'id'
-#     template_name = 'books/book_detail.html'
-#
-#     def post(self, request, *args, **kwargs):
-#         rent = Book.objects.filter(title=request.POST['title'])
-#         print(rent.book_rent)
-#         RentalDetail.objects.filter(username=request.POST['username']).update(penalty=2)
-#     # def get_object(self, queryset=None):
-#     #     rent = self.
-#     # # RentalDetail.penalty = RentalDetail.penalty + Book.book_ren
+    def get_queryset(self):
+        return RentalDetail.objects.filter(user=self.request.user)
