@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'channels',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'users',
     'books',
     'django_crontab',
+    'notification',
 
 ]
 
@@ -72,6 +74,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'bookapp1.wsgi.application'
+ASGI_APPLICATION = 'bookapp1.asgi.application'
 
 
 # Database
@@ -135,3 +138,11 @@ CRONJOBS = [
     ('*/1 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
 ]
 
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}

@@ -26,6 +26,7 @@ class BookCreateView(LoginRequiredMixin, CreateView):
         'total_copies'
     ]
     success_url = reverse_lazy('book_create')
+    extra_context = {'room_name': 'book-create'}
 
 
 class BookUpdateView(UpdateView):
@@ -41,6 +42,7 @@ class BookUpdateView(UpdateView):
 
     ]
     success_url = '/'
+    extra_context = {'room_name': 'book-update'}
 
 
 class BookDeleteView(DeleteView):
@@ -51,11 +53,13 @@ class BookDeleteView(DeleteView):
 class BookListView(ListView):
     model = Book
     context_object_name = 'book_list'
+    extra_context = {'room_name': 'book-list'}
 
 
 class BookDetailView(DetailView):
     model = Book
     context_object_name = 'book_list'
+    extra_context = {'room_name': 'book-details'}
 
     def get_context_data(self, **kwargs):
         context = {}
@@ -77,6 +81,7 @@ class RentBookView(CreateView):
         'book'
     ]
     success_url = reverse_lazy('book_list')
+    extra_context = {'room_name': 'book-rent'}
 
     def post(self, request, *args, **kwargs):
         form = RentBookForm(request.POST)
@@ -99,13 +104,16 @@ class ReturnBookView(UpdateView):
     fields = [
         'return_time'
     ]
+    extra_context = {'room_name': 'book-return'}
 
     def post(self, request, *args, **kwargs):
-        RentalDetail.objects.filter(id=request.POST['book_id']).update(return_time=datetime.datetime.now())
+        RentalDetail.objects.filter(id=request.POST['book_id']).update(return_time= roundTime(datetime.datetime.now(), roundTo=60 * 60))
         title = RentalDetail.objects.get(id=request.POST['book_id'])
         book = title.book.id
         rented_user = Book.objects.get(id=book)
         rented_user.rented_users.remove(request.user)
+        rented_user.total_copies += 1
+        rented_user.save()
         return HttpResponseRedirect(reverse_lazy('rented-booklist'))
 
 
@@ -114,7 +122,7 @@ class UserRentedBookListView(ListView):
     template_name = 'books/rented_user_list.html'
     context_object_name = 'rented_book'
     paginate_by = 20
-
+    extra_context = {'room_name': 'book-rentlist'}
     def get_queryset(self):
         return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved'))
 
@@ -123,9 +131,18 @@ class RentRequestView(ListView):
     model = RentalDetail
     context_object_name = 'rent_request'
     template_name = 'books/rent_request_list.html'
+    extra_context = {'room_name': 'book-rent-requests'}
 
     def get_queryset(self):
         return RentalDetail.objects.all()
+
+
+def roundTime(dt=None, roundTo=60):
+    if dt is None:
+        dt = datetime.datetime.now()
+    seconds = (dt.replace(tzinfo=None) - dt.min).seconds
+    rounding = (seconds + roundTo / 2) // roundTo * roundTo
+    return dt + datetime.timedelta(0, rounding - seconds, -dt.microsecond)
 
 
 class RentRequestUpdateView(UpdateView):
@@ -133,7 +150,13 @@ class RentRequestUpdateView(UpdateView):
     fields = [
         'status'
     ]
+    extra_context = {'room_name': 'book-rent-approved'}
 
     def post(self, request, *args, **kwargs):
         RentalDetail.objects.filter(id=request.POST['book_id']).update(status='Approved')
+        rented = RentalDetail.objects.filter(issue_time=None)
+        for i in rented:
+            if i.status == 'Approved':
+                i.issue_time = roundTime(datetime.datetime.now(), roundTo=60 * 60)
+                i.save()
         return HttpResponseRedirect(reverse_lazy('rent-requestlist'))

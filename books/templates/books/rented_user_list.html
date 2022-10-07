@@ -30,7 +30,12 @@
                   <td>{{ book.book }}</td>
                   <td>{{ book.rent_hours }}</td>
                   <td>{{ book.issue_time }}</td>
-                  <td>{{ book.return_time }}</td>
+                    {% if book.return_time == None %}
+                        <td>Pending</td>
+                    {% else %}
+                        <td>{{ book.return_time }}</td>
+                    {% endif %}
+
                   <td>{{ book.total_rent }}</td>
                   <td>
                       <form action="{% url 'return-book' book.id %}" method="post">

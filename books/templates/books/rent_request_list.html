@@ -44,8 +44,17 @@
                   <td>{{ request.user }}</td>
                   <td>{{ request.book }}</td>
                   <td>{{ request.rent_hours }}</td>
-                  <td>{{ request.issue_time }}</td>
-                  <td>{{ request.return_time }}</td>
+                    {% if request.issue_time == None %}
+                        <td>Pending</td>
+                    {% else %}
+                        <td>{{ request.issue_time }}</td>
+                    {% endif %}
+
+                    {% if request.return_time == None %}
+                        <td>Pending</td>
+                    {% else %}
+                        <td>{{ request.return_time }}</td>
+                    {% endif %}
                   <td>{{ request.total_rent }}</td>
                   <td>{{ request.status }}</td>
                   <td>
@@ -53,10 +62,10 @@
                           {% csrf_token %}
                           <input type="hidden" value="{{ request.id }}" name="book_id">
 
-                          {% if book.status is 'Not Approved' %}
-                          <button type="submit" class="btn btn-primary btn-sm">Approve</button>
+                          {% if request.status == 'Not Approved' %}
+                            <a><button type="submit" class="btn btn-primary ">Approve</button></a>
                           {% else %}
-                          <button class="btn btn-success btn-sm">Approved</button>
+                            <a class="btn btn-success btn-sm">Approved</a>
                           {% endif %}
 
                       </form>

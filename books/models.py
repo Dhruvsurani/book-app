@@ -43,7 +43,7 @@ class RentalDetail(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user_name')
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='book_name')
     rent_hours = models.FloatField(default=0)
-    issue_time = models.TimeField()
+    issue_time = models.TimeField(null=True)
     return_time = models.TimeField(null=True)
     total_rent = models.IntegerField(default=0)
     status_choices = (('Approved', 'Approved'),
@@ -55,6 +55,5 @@ class RentalDetail(models.Model):
         return str(self.pk)
 
     def save(self, *args, **kwargs):
-        self.issue_time = roundTime(datetime.datetime.now(), roundTo=60 * 60)
 
         return super().save(*args, **kwargs)
