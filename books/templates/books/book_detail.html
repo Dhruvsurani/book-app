@@ -92,4 +92,25 @@
       </div>
     </div>
   </div>
+  <script>
+  notificationSocket.onopen = function(e) {
+        alert("[open] Connection established");
+            alert("Sending to server");
+            notificationSocket.send(JSON.stringify({'message':"dhruv"}));
+         };
+<!--    const roomName1 = JSON.parse(document.getElementById('room-name').textContent);-->
+<!--    const notificationSocket1 = new WebSocket(-->
+<!--            'ws://'-->
+<!--            + window.location.host-->
+<!--            + '/ws/notification/'-->
+<!--            + roomName1-->
+<!--            + '/'-->
+<!--        );-->
+<!--      notificationSocket1.onopen = function(e) {-->
+<!--            alert("[open] Connection established");-->
+<!--            alert("Sending to server");-->
+<!--            notificationSocket1.send(JSON.stringify({'message':"dhruv"}));-->
+<!--         };-->
+
+  </script>
 {% endblock %}
