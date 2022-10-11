@@ -9,7 +9,8 @@
     <h5 class="card-title"><strong>Author:</strong>{{ book_list.author }}</h5>
     <h5 class="card-title"><strong>Summary:</strong> {{ book_list.summary }}</h5>
     <h5 class="card-title"><strong>ISBN:</strong> {{ book_list.slug }}</h5>
-    <h5 class="card-title"><strong>Rent:</strong> {{ book_list.book_rent }} Rs (Per hour charge)</h5>
+    <h5 class="card-title"><strong>Rent:</strong> ₹{{ book_list.book_rent }} <h5 class="text-danger">(This rent is for 5 Hours)</h5></h5>
+    <h5 class="text-danger">After 5 Hours penalty will be ₹5 per hour.</h5>
     <h5 class="card-title"><strong>Copies:</strong> {{ book_list.total_copies }}</h5>
     {% if user.is_superuser %}
       <a class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter1" data-whatever="@getbootstrap">DELETE</a>
@@ -60,7 +61,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form method="POST" action="{% url 'rent-book' %}">
+            <form method="POST" id="form" action="{% url 'rent-book' %}">
 
               {% csrf_token %}
 <!--              {{ form.as_p }}-->
@@ -92,13 +93,10 @@
       </div>
     </div>
   </div>
+<!--{{ room_name|json_script:"room-name" }}-->
   <script>
-  notificationSocket.onopen = function(e) {
-        alert("[open] Connection established");
-            alert("Sending to server");
-            notificationSocket.send(JSON.stringify({'message':"dhruv"}));
-         };
-<!--    const roomName1 = JSON.parse(document.getElementById('room-name').textContent);-->
+<!--  const user = document.getElementById("user");-->
+<!--  const roomName1 = JSON.parse(document.getElementById('room-name').textContent);-->
 <!--    const notificationSocket1 = new WebSocket(-->
 <!--            'ws://'-->
 <!--            + window.location.host-->
@@ -106,6 +104,14 @@
 <!--            + roomName1-->
 <!--            + '/'-->
 <!--        );-->
+<!--  notificationSocket1.onopen = function(e) {-->
+<!--      console.log("open")-->
+
+<!--        notificationSocket.send(JSON.stringify({'message':'user'}));-->
+
+
+<!--         };-->
+
 <!--      notificationSocket1.onopen = function(e) {-->
 <!--            alert("[open] Connection established");-->
 <!--            alert("Sending to server");-->

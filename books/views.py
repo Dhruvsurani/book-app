@@ -86,9 +86,11 @@ class RentBookView(CreateView):
     def post(self, request, *args, **kwargs):
         form = RentBookForm(request.POST)
         if form.is_valid():
-            form.save()
+            obj = form.save()
             book = Book.objects.get(title=form.cleaned_data['book'])
             book.rented_users.add(request.user)
+            obj.total_rent = book.book_rent
+            obj.save()
             if book.total_copies == 0:
                 pass
             else:
@@ -107,7 +109,8 @@ class ReturnBookView(UpdateView):
     extra_context = {'room_name': 'book-return'}
 
     def post(self, request, *args, **kwargs):
-        RentalDetail.objects.filter(id=request.POST['book_id']).update(return_time= roundTime(datetime.datetime.now(), roundTo=60 * 60))
+        now = datetime.datetime.now()
+        RentalDetail.objects.filter(id=request.POST['book_id']).update(return_time= roundTime(now, roundTo=60 * 60))
         title = RentalDetail.objects.get(id=request.POST['book_id'])
         book = title.book.id
         rented_user = Book.objects.get(id=book)
@@ -121,7 +124,7 @@ class UserRentedBookListView(ListView):
     model = RentalDetail
     template_name = 'books/rented_user_list.html'
     context_object_name = 'rented_book'
-    paginate_by = 20
+
     extra_context = {'room_name': 'book-rentlist'}
     def get_queryset(self):
         return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved'))

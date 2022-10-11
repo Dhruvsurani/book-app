@@ -1,3 +1,5 @@
+import datetime
+
 from django.db.models import Q
 
 from books.models import RentalDetail, Book
@@ -10,10 +12,12 @@ def rent_total():
 
     for i in rent_queryset:
         i.rent_hours += 1
-        i.total_rent = i.book.book_rent * i.rent_hours
+        if i.rent_hours > 2:
+            i.total_rent = i.total_rent + 5
         i.save()
         print('rent hours ',i.rent_hours)
         print('Book rent ',i.book.book_rent)
+        print('Time : ', datetime.datetime.now())
 
 
 

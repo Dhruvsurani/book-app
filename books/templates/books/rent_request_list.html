@@ -58,14 +58,16 @@
                   <td>{{ request.total_rent }}</td>
                   <td>{{ request.status }}</td>
                   <td>
-                      <form action="{% url 'return-bookupdate' request.id %}" method="post">
+                      <form action="{% url 'return-bookupdate' request.id %}" id="form_id" method="post">
                           {% csrf_token %}
                           <input type="hidden" value="{{ request.id }}" name="book_id">
 
                           {% if request.status == 'Not Approved' %}
-                            <a><button type="submit" class="btn btn-primary ">Approve</button></a>
+                            <button type="submit" class="btn btn-primary btn-sm">Approve</button>
+                          {% elif request.return_time != None %}
+                            <button class="btn btn-danger btn-sm" disabled>Returned</button>
                           {% else %}
-                            <a class="btn btn-success btn-sm">Approved</a>
+                            <button class="btn btn-success btn-sm" disabled>Approved</button>
                           {% endif %}
 
                       </form>

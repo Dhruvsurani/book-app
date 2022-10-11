@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'channels',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -112,6 +112,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
+TIME_INPUT_FORMATS = ('%I:%M %p',)
+
 TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
@@ -135,14 +137,14 @@ LOGOUT_REDIRECT_URL = 'book_list'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRONJOBS = [
-    ('*/1 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
+    ('0 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
 ]
 
-CHANNEL_LAYERS = {
-    'default': {
-        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
-        },
-    },
-}
+# CHANNEL_LAYERS = {
+#     'default': {
+#         'BACKEND': 'channels_redis.core.RedisChannelLayer',
+#         'CONFIG': {
+#             "hosts": [('127.0.0.1', 6379)],
+#         },
+#     },
+# }
