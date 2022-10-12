@@ -66,7 +66,7 @@
               {% csrf_token %}
 <!--              {{ form.as_p }}-->
               <div class="form-group">
-                <label  class="col-form-label">user  :</label> <b>{{request.user.username}}</b>
+                <label  class="col-form-label">user  :</label> <b id="user-name">{{request.user.username}}</b>
                 <input type="hidden" class="form-control" id="user" name="user" value={{request.user.id}} >
               </div>
               <div class="form-group">
@@ -83,7 +83,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Confirm</button>
+                <button type="submit" id="rent-confirm" class="btn btn-primary">Confirm</button>
               </div>
             </form>
 
@@ -105,12 +105,21 @@
 <!--            + '/'-->
 <!--        );-->
 <!--  notificationSocket1.onopen = function(e) {-->
-<!--      console.log("open")-->
+<!--      console.log("open", e)-->
 
 <!--        notificationSocket.send(JSON.stringify({'message':'user'}));-->
 
 
 <!--         };-->
+<!--         document.getElementById('rent-confirm').onclick =-->
+<!--            function(event){-->
+<!--                const messageInputDom = document.getElementById('user-name')-->
+<!--                const message = messageInputDom.value-->
+<!--                notificationSocket1.send(JSON.stringify({-->
+<!--                    'message': message-->
+<!--                }))-->
+<!--                messageInputDom.value = ''-->
+<!--            }-->
 
 <!--      notificationSocket1.onopen = function(e) {-->
 <!--            alert("[open] Connection established");-->

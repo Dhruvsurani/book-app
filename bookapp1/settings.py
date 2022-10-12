@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +40,6 @@ INSTALLED_APPS = [
     'users',
     'books',
     'django_crontab',
-    'notification',
 
 ]
 
@@ -74,7 +72,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'bookapp1.wsgi.application'
-ASGI_APPLICATION = 'bookapp1.asgi.application'
+# ASGI_APPLICATION = 'bookapp1.asgi.application'
 
 
 # Database

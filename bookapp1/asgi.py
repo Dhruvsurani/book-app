@@ -16,7 +16,7 @@ from channels.routing import ProtocolTypeRouter, URLRouter
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bookapp1.settings')
 application = get_asgi_application()
 # from channels.auth import AuthMiddleware, AuthMiddlewareStack
-# from notification.routing import websocket_urlpatterns
+# from books.routing import websocket_urlpatterns
 #
 # application = ProtocolTypeRouter({
 #     "http": get_asgi_application(),
