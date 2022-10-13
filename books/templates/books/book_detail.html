@@ -93,39 +93,25 @@
       </div>
     </div>
   </div>
-<!--{{ room_name|json_script:"room-name" }}-->
-  <script>
-<!--  const user = document.getElementById("user");-->
-<!--  const roomName1 = JSON.parse(document.getElementById('room-name').textContent);-->
-<!--    const notificationSocket1 = new WebSocket(-->
-<!--            'ws://'-->
-<!--            + window.location.host-->
-<!--            + '/ws/notification/'-->
-<!--            + roomName1-->
-<!--            + '/'-->
-<!--        );-->
-<!--  notificationSocket1.onopen = function(e) {-->
-<!--      console.log("open", e)-->
+{{ room_name|json_script:"room-name" }}
+{% if not user.is_superuser %}
+    <script>
+    const roomName = JSON.parse(document.getElementById('room-name').textContent);
+    var loc = window.location
+    var wsStart = "ws://"
+    if (loc.protocol == "https:"){
+        wsStart = "wss://"
+    }
 
-<!--        notificationSocket.send(JSON.stringify({'message':'user'}));-->
+    var notificationSocket =  wsStart + loc.host + '/notifications/'  // ws : wss   // Websocket URL, Same on as mentioned in the routing.py
+    var socket = new WebSocket(notificationSocket)
+
+// Socket Connet Functionality
+    socket.onopen = function(e){
+        console.log('open', e)
+    }
 
 
-<!--         };-->
-<!--         document.getElementById('rent-confirm').onclick =-->
-<!--            function(event){-->
-<!--                const messageInputDom = document.getElementById('user-name')-->
-<!--                const message = messageInputDom.value-->
-<!--                notificationSocket1.send(JSON.stringify({-->
-<!--                    'message': message-->
-<!--                }))-->
-<!--                messageInputDom.value = ''-->
-<!--            }-->
-
-<!--      notificationSocket1.onopen = function(e) {-->
-<!--            alert("[open] Connection established");-->
-<!--            alert("Sending to server");-->
-<!--            notificationSocket1.send(JSON.stringify({'message':"dhruv"}));-->
-<!--         };-->
-
-  </script>
+    </script>
+  {% endif %}
 {% endblock %}

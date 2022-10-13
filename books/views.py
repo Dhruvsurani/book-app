@@ -1,5 +1,6 @@
 import datetime
 
+from channels.layers import get_channel_layer
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
 from django.db.models import Q
@@ -9,6 +10,7 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 from .models import Book, RentalDetail
 from .forms import RentBookForm
+from asgiref.sync import async_to_sync
 
 # Create your views here.tai
 
@@ -29,7 +31,8 @@ class BookCreateView(LoginRequiredMixin, CreateView):
     extra_context = {'room_name': 'book-create'}
 
 
-class BookUpdateView(UpdateView):
+class BookUpdateView(LoginRequiredMixin, UpdateView):
+    login_url = '/login/'
     model = Book
     template_name = 'books/form.html'
     fields = [
@@ -45,18 +48,21 @@ class BookUpdateView(UpdateView):
     extra_context = {'room_name': 'book-update'}
 
 
-class BookDeleteView(DeleteView):
+class BookDeleteView(LoginRequiredMixin, DeleteView):
+    login_url = '/login/'
     model = Book
     success_url = '/'
 
 
-class BookListView(ListView):
+class BookListView(LoginRequiredMixin, ListView):
+    login_url = '/login/'
     model = Book
     context_object_name = 'book_list'
     extra_context = {'room_name': 'book-list'}
 
 
-class BookDetailView(DetailView):
+class BookDetailView(LoginRequiredMixin, DetailView):
+    login_url = '/login/'
     model = Book
     context_object_name = 'book_list'
     extra_context = {'room_name': 'book-details'}
@@ -73,7 +79,8 @@ class BookDetailView(DetailView):
         return super().get_context_data(**context)
 
 
-class RentBookView(CreateView):
+class RentBookView(LoginRequiredMixin, CreateView):
+    login_url = '/login/'
     template_name = 'books/book_detail.html'
     model = RentalDetail
     fields = [
@@ -91,6 +98,22 @@ class RentBookView(CreateView):
             book.rented_users.add(request.user)
             obj.total_rent = book.book_rent
             obj.save()
+
+
+
+            current_user = request.user
+            channel_layer = get_channel_layer()
+            data = f"{current_user} is request for {book}"
+            async_to_sync(channel_layer.group_send)(
+                str(f'notification_{current_user}'),  # Channel Name, Should always be string
+                {
+                    "type": "notify",  # Custom Function written in the consumers.py
+                    "text": data,
+                },
+            )
+
+
+
             if book.total_copies == 0:
                 pass
             else:
@@ -101,7 +124,8 @@ class RentBookView(CreateView):
         return HttpResponseRedirect(reverse_lazy('book_list'))
 
 
-class ReturnBookView(UpdateView):
+class ReturnBookView(LoginRequiredMixin, UpdateView):
+    login_url = '/login/'
     model = RentalDetail
     fields = [
         'return_time'
@@ -120,7 +144,8 @@ class ReturnBookView(UpdateView):
         return HttpResponseRedirect(reverse_lazy('rented-booklist'))
 
 
-class UserRentedBookListView(ListView):
+class UserRentedBookListView(LoginRequiredMixin, ListView):
+    login_url = '/login/'
     model = RentalDetail
     template_name = 'books/rented_user_list.html'
     context_object_name = 'rented_book'
@@ -130,7 +155,8 @@ class UserRentedBookListView(ListView):
         return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved'))
 
 
-class RentRequestView(ListView):
+class RentRequestView(LoginRequiredMixin, ListView):
+    login_url = '/login/'
     model = RentalDetail
     context_object_name = 'rent_request'
     template_name = 'books/rent_request_list.html'
@@ -148,7 +174,8 @@ def roundTime(dt=None, roundTo=60):
     return dt + datetime.timedelta(0, rounding - seconds, -dt.microsecond)
 
 
-class RentRequestUpdateView(UpdateView):
+class RentRequestUpdateView(LoginRequiredMixin, UpdateView):
+    login_url = '/login/'
     model = RentalDetail
     fields = [
         'status'
