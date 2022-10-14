@@ -93,23 +93,21 @@
       </div>
     </div>
   </div>
-{{ room_name|json_script:"room-name" }}
+<!--{{ room_name|json_script:"room-name" }}-->
 {% if not user.is_superuser %}
     <script>
-    const roomName = JSON.parse(document.getElementById('room-name').textContent);
-    var loc = window.location
-    var wsStart = "ws://"
-    if (loc.protocol == "https:"){
-        wsStart = "wss://"
-    }
+<!--    const roomName = JSON.parse(document.getElementById('room-name').textContent);-->
+<!--    var loc = window.location-->
+<!--    var wsStart = "ws://"-->
+<!--    if (loc.protocol == "https:"){-->
+<!--        wsStart = "wss://"-->
+<!--    }-->
 
-    var notificationSocket =  wsStart + loc.host + '/notifications/'  // ws : wss   // Websocket URL, Same on as mentioned in the routing.py
-    var socket = new WebSocket(notificationSocket)
+<!--    var notificationSocket =  wsStart + loc.host + '/notifications/'  // ws : wss   // Websocket URL, Same on as mentioned in the routing.py-->
+<!--    var socket = new WebSocket(notificationSocket)-->
 
-// Socket Connet Functionality
-    socket.onopen = function(e){
-        console.log('open', e)
-    }
+<!--// Socket Connet Functionality-->
+
 
 
     </script>

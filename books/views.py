@@ -103,9 +103,9 @@ class RentBookView(LoginRequiredMixin, CreateView):
 
             current_user = request.user
             channel_layer = get_channel_layer()
-            data = f"{current_user} is request for {book}"
+            data = f"{current_user} is requesting for {book}"
             async_to_sync(channel_layer.group_send)(
-                str(f'notification_{current_user}'),  # Channel Name, Should always be string
+                str('notification_request'),  # Channel Name, Should always be string
                 {
                     "type": "notify",  # Custom Function written in the consumers.py
                     "text": data,
@@ -149,10 +149,15 @@ class UserRentedBookListView(LoginRequiredMixin, ListView):
     model = RentalDetail
     template_name = 'books/rented_user_list.html'
     context_object_name = 'rented_book'
+    # ordering = ['-issue_date']
 
     extra_context = {'room_name': 'book-rentlist'}
     def get_queryset(self):
         return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved'))
+
+    def get_ordering(self):
+        order = self.request.GET.get('ordering', '-issue_date')
+        return order
 
 
 class RentRequestView(LoginRequiredMixin, ListView):

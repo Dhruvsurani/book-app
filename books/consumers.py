@@ -11,25 +11,24 @@ class NotificationConsumer(AsyncWebsocketConsumer):
             # Reject the connection
             await self.close()
         else:
-            print(self.scope["user"])
-            self.username = self.scope["user"]
-            self.group_name = f'notification_{self.username}'
+
+            self.group_name = f'notification_request'
             await self.channel_layer.group_add(
                 self.group_name,
                 self.channel_name
             )
             await self.accept()
 
-    async def receive(self, text_data=None, bytes_data=None):
-        # Called with either text_data or bytes_data for each frame
-        # You can call:
-        await self.send(text_data="Hello world!")
-        # Or, to send a binary frame:
-        await self.send(bytes_data="Hello world!")
-        # Want to force-close the connection? Call:
-        await self.close()
-        # Or add a custom WebSocket error code!
-        await self.close(code=4123)
+    # async def receive(self, text_data=None, bytes_data=None):
+    #     # Called with either text_data or bytes_data for each frame
+    #     # You can call:
+    #     await self.send(text_data="Hello world!")
+    #     # Or, to send a binary frame:
+    #     await self.send(bytes_data="Hello world!")
+    #     # Want to force-close the connection? Call:
+    #     await self.close()
+    #     # Or add a custom WebSocket error code!
+    #     await self.close(code=4123)
 
     async def disconnect(self, close_code):
         # Leave room group

@@ -43,6 +43,7 @@ class RentalDetail(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user_name')
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='book_name')
     rent_hours = models.FloatField(default=0)
+    issue_date = models.DateTimeField(default=timezone.now)
     issue_time = models.TimeField(null=True)
     return_time = models.TimeField(null=True)
     total_rent = models.IntegerField(default=0)
