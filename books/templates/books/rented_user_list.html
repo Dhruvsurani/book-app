@@ -29,11 +29,11 @@
                   <td>{{ book.user }}</td>
                   <td>{{ book.book }}</td>
                   <td>{{ book.rent_hours }}</td>
-                  <td>{{ book.issue_time }}</td>
+                  <td>{{ book.issue_time | time:"H:i:s" }}</td>
                     {% if book.return_time == None %}
                         <td>Pending</td>
                     {% else %}
-                        <td>{{ book.return_time }}</td>
+                        <td>{{ book.return_time | time:"H:i:s" }}</td>
                     {% endif %}
 
                   <td>{{ book.total_rent }}</td>
@@ -42,7 +42,7 @@
                           {% csrf_token %}
                           <input type="hidden" value="{{ book.id }}" name="book_id">
                           <input type="hidden" value="{{ book.title }}" name="book_title">
-                          {% if book.return_time == None %}
+                            {% if book.status != 'Returned' %}
                           <button type="submit" class="btn btn-primary btn-sm">Return</button>
                           {% endif %}
                       </form>

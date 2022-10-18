@@ -6,7 +6,7 @@ class RentBookForm(forms.ModelForm):
 
     class Meta:
         model = RentalDetail
-        fields = ['user', 'book']
+        fields = ['user', 'book', 'issue_time', 'return_time']
 
 
 # class RentUpdateForm(forms.ModelForm):

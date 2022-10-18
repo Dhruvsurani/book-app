@@ -81,6 +81,14 @@
                 <label  class="col-form-label">Rent :</label><b>{{book_list.book_rent}}</b>
 <!--                <input type="text" class="form-control" id="book_rent" value={{book_list.book_rent}} >-->
               </div>
+              <div class="form-group">
+                <label  class="col-form-label">Issue Time :</label><input type="time" id="issue_time" name="issue_time"  required>
+<!--                <input type="text" class="form-control" id="book_rent" value={{book_list.book_rent}} >-->
+              </div>
+              <div class="form-group">
+                <label  class="col-form-label">Return Time :</label><input type="time" id="return_time" name="return_time" required>
+<!--                <input type="text" class="form-control" id="book_rent" value={{book_list.book_rent}} >-->
+              </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="submit" id="rent-confirm" class="btn btn-primary">Confirm</button>
@@ -93,23 +101,5 @@
       </div>
     </div>
   </div>
-<!--{{ room_name|json_script:"room-name" }}-->
-{% if not user.is_superuser %}
-    <script>
-<!--    const roomName = JSON.parse(document.getElementById('room-name').textContent);-->
-<!--    var loc = window.location-->
-<!--    var wsStart = "ws://"-->
-<!--    if (loc.protocol == "https:"){-->
-<!--        wsStart = "wss://"-->
-<!--    }-->
 
-<!--    var notificationSocket =  wsStart + loc.host + '/notifications/'  // ws : wss   // Websocket URL, Same on as mentioned in the routing.py-->
-<!--    var socket = new WebSocket(notificationSocket)-->
-
-<!--// Socket Connet Functionality-->
-
-
-
-    </script>
-  {% endif %}
 {% endblock %}

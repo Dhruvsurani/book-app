@@ -44,11 +44,12 @@ class RentalDetail(models.Model):
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='book_name')
     rent_hours = models.FloatField(default=0)
     issue_date = models.DateTimeField(default=timezone.now)
-    issue_time = models.TimeField(null=True)
-    return_time = models.TimeField(null=True)
+    issue_time = models.TimeField()
+    return_time = models.TimeField()
     total_rent = models.IntegerField(default=0)
     status_choices = (('Approved', 'Approved'),
                       ('Not Approved', 'Not Approved'),
+                      ('Returned', 'Returned'),
                       )
     status = models.CharField(max_length=100, choices=status_choices, default='Not Approved')
 

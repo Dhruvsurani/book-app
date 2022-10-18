@@ -79,13 +79,27 @@ class BookDetailView(LoginRequiredMixin, DetailView):
         return super().get_context_data(**context)
 
 
+def roundTime(dt):
+
+    if dt.minute >= 30:
+        dt1 = dt.replace(minute=00)
+        h = dt.hour + 1
+        dt2 = dt1.replace(hour=h)
+    else:
+        dt2 = dt.replace(minute=00)
+    return dt2
+
+
+
 class RentBookView(LoginRequiredMixin, CreateView):
     login_url = '/login/'
     template_name = 'books/book_detail.html'
     model = RentalDetail
     fields = [
         'user',
-        'book'
+        'book',
+        'issue_time',
+        'return_time',
     ]
     success_url = reverse_lazy('book_list')
     extra_context = {'room_name': 'book-rent'}
@@ -96,10 +110,11 @@ class RentBookView(LoginRequiredMixin, CreateView):
             obj = form.save()
             book = Book.objects.get(title=form.cleaned_data['book'])
             book.rented_users.add(request.user)
-            obj.total_rent = book.book_rent
+            obj.issue_time = roundTime(obj.issue_time)
+            obj.return_time = roundTime(obj.return_time)
+            obj.rent_hours = obj.return_time.hour - obj.issue_time.hour
+            obj.total_rent = book.book_rent * obj.rent_hours
             obj.save()
-
-
 
             current_user = request.user
             channel_layer = get_channel_layer()
@@ -111,9 +126,6 @@ class RentBookView(LoginRequiredMixin, CreateView):
                     "text": data,
                 },
             )
-
-
-
             if book.total_copies == 0:
                 pass
             else:
@@ -133,9 +145,8 @@ class ReturnBookView(LoginRequiredMixin, UpdateView):
     extra_context = {'room_name': 'book-return'}
 
     def post(self, request, *args, **kwargs):
-        now = datetime.datetime.now()
-        RentalDetail.objects.filter(id=request.POST['book_id']).update(return_time= roundTime(now, roundTo=60 * 60))
         title = RentalDetail.objects.get(id=request.POST['book_id'])
+        RentalDetail.objects.filter(id=request.POST['book_id']).update(status='Returned')
         book = title.book.id
         rented_user = Book.objects.get(id=book)
         rented_user.rented_users.remove(request.user)
@@ -152,12 +163,11 @@ class UserRentedBookListView(LoginRequiredMixin, ListView):
     # ordering = ['-issue_date']
 
     extra_context = {'room_name': 'book-rentlist'}
-    def get_queryset(self):
-        return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved'))
 
-    def get_ordering(self):
-        order = self.request.GET.get('ordering', '-issue_date')
-        return order
+    def get_queryset(self):
+        return RentalDetail.objects.filter(Q(user=self.request.user) & Q(status='Approved') | Q(status='Returned')).order_by('-id')
+
+
 
 
 class RentRequestView(LoginRequiredMixin, ListView):
@@ -168,15 +178,7 @@ class RentRequestView(LoginRequiredMixin, ListView):
     extra_context = {'room_name': 'book-rent-requests'}
 
     def get_queryset(self):
-        return RentalDetail.objects.all()
-
-
-def roundTime(dt=None, roundTo=60):
-    if dt is None:
-        dt = datetime.datetime.now()
-    seconds = (dt.replace(tzinfo=None) - dt.min).seconds
-    rounding = (seconds + roundTo / 2) // roundTo * roundTo
-    return dt + datetime.timedelta(0, rounding - seconds, -dt.microsecond)
+        return RentalDetail.objects.all().order_by('-id')
 
 
 class RentRequestUpdateView(LoginRequiredMixin, UpdateView):

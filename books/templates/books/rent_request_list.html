@@ -47,13 +47,13 @@
                     {% if request.issue_time == None %}
                         <td>Pending</td>
                     {% else %}
-                        <td>{{ request.issue_time }}</td>
+                        <td>{{ request.issue_time | time:"H:i:s" }}</td>
                     {% endif %}
 
                     {% if request.return_time == None %}
                         <td>Pending</td>
                     {% else %}
-                        <td>{{ request.return_time }}</td>
+                        <td>{{ request.return_time | time:"H:i:s" }}</td>
                     {% endif %}
                   <td>{{ request.total_rent }}</td>
                   <td>{{ request.status }}</td>
@@ -64,7 +64,7 @@
 
                           {% if request.status == 'Not Approved' %}
                             <button type="submit" class="btn btn-primary btn-sm">Approve</button>
-                          {% elif request.return_time != None %}
+                          {% elif request.status == 'Returned' %}
                             <button class="btn btn-danger btn-sm" disabled>Returned</button>
                           {% else %}
                             <button class="btn btn-success btn-sm" disabled>Approved</button>

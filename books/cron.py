@@ -8,12 +8,17 @@ from books.models import RentalDetail, Book
 def rent_total():
 
     print('\nhello')
-    rent_queryset = RentalDetail.objects.filter(Q(return_time=None) & Q(status='Approved'))
-
+    rent_queryset = RentalDetail.objects.filter(status='Approved')
+    now = datetime.datetime.now()
+    current_time = now.strftime("%H:%M:%S")
     for i in rent_queryset:
-        i.rent_hours += 1
-        if i.rent_hours > 2:
+        rt_hr = int(i.return_time.hour)
+        ct_hr = int(current_time[0:2])
+        if ct_hr >= rt_hr:
+            print('hello broooo')
+            i.rent_hours += 1
             i.total_rent = i.total_rent + 5
+            print(i.total_rent)
         i.save()
         print('rent hours ',i.rent_hours)
         print('Book rent ',i.book.book_rent)

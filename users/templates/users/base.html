@@ -94,7 +94,7 @@
 		socket.onmessage = function(e){
 			console.log('message', e)
 			console.log(e.data)
-			document.getElementById("notifications-dropdown").innerHTML = "<li class='dropdown-item'>" + e.data + "</li><hr class='dropdown-divider'>" + document.getElementById("notifications-dropdown").innerHTML;
+			document.getElementById("notifications-dropdown").innerHTML = "<a href='{% url "rent-requestlist" %}' class='dropdown-item'>" + e.data + "</a><hr class='dropdown-divider'>" + document.getElementById("notifications-dropdown").innerHTML;
 			document.getElementById("notification-badge").innerHTML = parseInt(document.getElementById("notification-badge").innerHTML) + 1;
     }
     {% endif %}
