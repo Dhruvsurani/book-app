@@ -1,7 +1,7 @@
 {% extends "users/base.html" %}
 
 {% block content %}
-    <center>
+
 
         <form class="form" id="searchform" action="" method="get">
 
@@ -15,14 +15,15 @@
 
         </form>
 
-    </center>
+
 
     <h1 class="text-center mb-5">Rent Request List</h1>
 
     {% if rent_request %}
     <div class="container">
         <div class="row">
-            <table class="table">
+            <table class="table"><!-- Noncompliant -->
+                <caption>Rent Requests</caption>
               <thead class="thead-dark">
                 <tr>
                   <th scope="col">ID</th>
