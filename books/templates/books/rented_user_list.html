@@ -29,11 +29,11 @@
                   <td>{{ book.user }}</td>
                   <td>{{ book.book }}</td>
                   <td>{{ book.rent_hours }}</td>
-                  <td>{{ book.issue_time | time:"H:i:s" }}</td>
+                  <td>{{ book.issue_date | date:'Y-m-d H:i' }}</td>
                     {% if book.return_time == None %}
                         <td>Pending</td>
                     {% else %}
-                        <td>{{ book.return_time | time:"H:i:s" }}</td>
+                        <td>{{ book.return_time | date:'Y-m-d H:i' }}</td>
                     {% endif %}
 
                   <td>{{ book.total_rent }}</td>

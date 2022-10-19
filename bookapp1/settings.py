@@ -136,7 +136,7 @@ LOGOUT_REDIRECT_URL = 'book_list'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRONJOBS = [
-    ('*/1 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
+    ('0 * * * *', 'books.cron.rent_total', '>> /home/dhruvsurani/Desktop/django-pre/book-app/users/static/scheduled_job.log')
 ]
 
 CHANNEL_LAYERS = {

@@ -1,493 +1,2585 @@
 
 hello
-rent hours  35.0
-Book rent  10
-
-hello
-rent hours  36.0
-Book rent  10
-
-hello
-rent hours  37.0
-Book rent  10
-
-hello
-rent hours  38.0
-Book rent  10
-
-hello
-rent hours  39.0
-Book rent  10
-
-hello
-rent hours  40.0
-Book rent  10
-
-hello
-rent hours  41.0
-Book rent  10
-
-hello
-rent hours  42.0
-Book rent  10
-
-hello
-rent hours  43.0
-Book rent  10
 
 hello
 
 hello
-rent hours  1.0
-Book rent  10
 
 hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f7c7497b150>
 rent hours  2.0
 Book rent  10
-Time :  2022-10-11 16:29:02.062022
+Time :  2022-10-19 12:22:01.671166
 
 hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f30600c0240>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:23:02.059461
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f2ca90735a0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:24:01.483127
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fbdf02fd720>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:25:01.875645
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f0fdfb4a510>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:26:02.271814
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f12d4daf330>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:27:01.665536
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fdf8a0cc2a0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:28:02.066820
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f71bf0ed5a0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:29:01.502520
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f546f00d330>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:30:01.915729
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f57d40d90f0>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f43f773c630>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fafc01d0720>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7eff21e3dd80>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f0ded68b570>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fed2036ed80>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f6dc9b3e3c0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:37:02.003304
+2022-10-19 07:30:00+00:00
+07:30:00
+<built-in method time of datetime.datetime object at 0x7f6dc9b3e510>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:37:02.003664
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f4204b87120>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:38:01.397858
+2022-10-19 07:30:00+00:00
+07:30:00
+<built-in method time of datetime.datetime object at 0x7f4204b87240>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:38:01.398359
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7f47477d6390>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:39:01.903917
+2022-10-19 07:30:00+00:00
+07:30:00
+<built-in method time of datetime.datetime object at 0x7f47477d64e0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:39:01.904382
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fa5e6635480>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:40:01.326406
+2022-10-19 07:30:00+00:00
+07:30:00
+<built-in method time of datetime.datetime object at 0x7fa5e66355d0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:40:01.326769
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fab47a556c0>
+
+hello
+2022-10-19 06:30:00+00:00
+06:30:00
+<built-in method time of datetime.datetime object at 0x7fda48784090>
+
+hello
+2022-10-19 06:30:00+00:00
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f3d1971b3f0>
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fa442b27cc0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:45:01.366809
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fa442b27e10>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:45:01.367166
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fe0cb461210>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:46:01.760668
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fe0cb461360>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:46:01.761075
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7effb4ea05a0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:47:02.154101
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7effb4ea06f0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:47:02.156599
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fd46fe25120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:48:01.580103
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fd46fe251e0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:48:01.582175
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f99fde567e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:49:01.985965
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f99fde56930>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:49:01.988196
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4dbe9f7270>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:50:01.424637
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4dbe9f73c0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:50:01.427187
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f9ff4d0ec00>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:51:01.825780
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f9ff4d0ed50>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:51:01.830551
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f454d3283f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:52:02.279797
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f454d328570>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:52:02.282351
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f454d328600>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:52:02.284950
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f711d290300>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:53:01.685608
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f711d290480>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:53:01.689879
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f711d290510>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:53:01.694324
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4d1c692660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:54:02.096066
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4d1c6927e0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:54:02.099033
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4d1c692870>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:54:02.101401
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fdb78062450>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:55:01.496265
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fdb780625d0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:55:01.498580
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fdb78062660>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:55:01.500846
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4c9ee13660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:56:01.938979
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4c9ee137e0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:56:01.941652
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4c9ee13870>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:56:01.944043
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f99d3532390>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:57:01.337473
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f99d3532510>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:57:01.339667
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f99d35325a0>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:57:01.344583
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f7dd048c5d0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:58:01.766971
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f7dd048c750>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:58:01.769698
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f7dd048c7e0>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:58:01.771971
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fcef60511b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:59:02.200392
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fcef6051330>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 12:59:02.202847
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fcef60513c0>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 12:59:02.205297
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fd6c262c330>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:00:01.624774
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fd6c262c4b0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:00:01.627079
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fd6c262c540>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:00:01.629349
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f39d10dc1e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:01:02.083302
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f39d10dc360>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:01:02.086958
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f39d10dc3f0>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:01:02.091110
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f759c306450>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:02:01.505456
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f759c3065d0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:02:01.510299
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f759c306660>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:02:01.513962
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fee2db6a5a0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:03:01.950690
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fee2db6a720>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:03:01.953041
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fee2db6a7b0>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:03:01.957106
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f1631f56330>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:04:01.359013
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f1631f564b0>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:04:01.362789
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f1631f56540>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:04:01.367107
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f0a2ed67810>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:05:01.770896
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f0a2ed67990>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:05:01.774081
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f0a2ed67a20>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:05:01.778058
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4d75ecf210>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:06:02.223760
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4d75ecf390>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:06:02.226255
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4d75ecf420>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:06:02.228915
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fc328b3b6c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:07:01.684218
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fc328b3b840>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:07:01.686997
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fc328b3b8d0>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:07:01.690047
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6b6376a480>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:08:02.129588
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6b6376a600>
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:08:02.134005
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6b6376a690>
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:08:02.138107
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f52bdb44420>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:09:01.587036
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f52bdb44600>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:09:01.589897
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f52bdb44720>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:09:01.592169
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6455310090>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:10:01.995444
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f64553101e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:10:01.997975
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6455310300>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:10:02.000392
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f42295600f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:11:01.395875
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4229560240>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:11:01.401242
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4229560360>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:11:01.404126
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fe6fffcb660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:12:01.800003
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fe6fffcb840>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:12:01.802224
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fe6fffcb960>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:12:01.805197
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f232675abd0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:13:02.205047
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f232675adb0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:13:02.207557
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f232675aed0>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:13:02.210834
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f3dd66fe120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:14:01.606136
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f3dd66fe300>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:14:01.608728
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f3dd66fe420>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:14:01.610990
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f05bfc243f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:15:02.007811
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f05bfc245d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:15:02.011818
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f05bfc246f0>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:15:02.016192
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6cc2783120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:16:01.417408
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6cc27832d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:16:01.419919
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6cc27833f0>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:16:01.423879
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6b902ce1b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:17:01.852838
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6b902ce390>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:17:01.855593
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6b902ce4b0>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:17:01.857866
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f85f9492e40>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:18:02.251606
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f85f942c120>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:18:02.254015
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f85f942c240>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:18:02.256187
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f5ea39bb630>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:19:01.648990
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5ea39bb810>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:19:01.651197
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5ea39bb930>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:19:01.653459
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fa16b6b8780>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:20:02.088457
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fa16b6b8960>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:20:02.090865
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fa16b6b8a80>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:20:02.093165
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f51a19ab390>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:21:01.500390
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f51a19ab570>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:21:01.502930
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f51a19ab690>
+0
+rent hours  4.0
+Book rent  10
+Time :  2022-10-19 13:21:01.506654
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6b235cb690>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:22:01.988203
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6b235cb810>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:22:01.993507
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f50d1a85120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:23:01.468613
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f50d1a85210>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:23:01.473147
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f961d0a0660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:24:01.901781
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f961d0a07e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:24:01.905272
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fbd09926330>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:25:02.299990
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fbd09926510>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:25:02.303131
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fbd09926630>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:25:02.306198
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f68e35136c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:26:01.699403
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f68e35138a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:26:01.701655
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f68e35139c0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:26:01.705034
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f325ae221b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:27:02.105547
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f325ae22390>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:27:02.107697
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f325ae224b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:27:02.110073
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f868d39d3c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:28:01.508989
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f868d39d5a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:28:01.511542
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f868d39d6c0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:28:01.513959
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f5a7903a120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:29:01.955707
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5a7903a300>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:29:01.957975
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5a7903a420>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:29:01.960699
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f9190f656f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:30:01.415422
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f9190f65870>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:30:01.417940
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f294d302cc0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:31:01.873295
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f294d302e40>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:31:01.876130
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fb050e1f720>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:32:02.347317
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fb050e1f8a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:32:02.351012
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f1ab74897e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:33:01.763415
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f1ab7489960>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:33:01.765982
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f14cb59de10>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:34:02.158350
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f14cb59df90>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:34:02.161431
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f211bdf2ae0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:35:01.595733
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f211bdf2c60>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:35:01.598176
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4d00bf86f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:36:01.989768
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4d00bf8870>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:36:01.992044
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7faf36541600>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:37:01.393447
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7faf36541780>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:37:01.395817
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fa35b252420>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:38:01.797654
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fa35b2525a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:38:01.800004
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7ff36ef7ded0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:39:02.195739
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7ff36ef1a090>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:39:02.198043
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f742a7dc660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:40:01.590013
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f742a7dc7e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:40:01.592592
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f307657c690>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:41:02.042855
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f307657c810>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:41:02.045072
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f7995267540>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:42:01.442967
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f79952676c0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:42:01.445330
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f9dac083150>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:43:01.837143
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f9dac0832d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:43:01.839369
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f7bae6a43c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:44:02.230312
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f7bae6a4540>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:44:02.233803
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fc3113f2360>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:45:01.634545
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fc3113f24e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:45:01.637310
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f1532201e40>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:46:02.028570
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f153219f030>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:46:02.031223
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f69566ce450>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:47:01.425965
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f69566ce5d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:47:01.429693
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f94a20253f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:48:01.886946
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f94a2025570>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:48:01.889214
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f431ca17c00>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:49:02.296478
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f431ca17d80>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:49:02.298686
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fe3f67120f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:50:01.692660
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fe3f6712240>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:50:01.694953
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f656a2834e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:51:02.096053
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f656a283660>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:51:02.098261
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f88428c3420>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:52:01.493931
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f88428c35a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:52:01.496353
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f9b37eb4720>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:53:01.885013
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f9b37eb48a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:53:01.889578
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fa4d79b3330>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:54:02.284241
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fa4d79b34b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:54:02.286750
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6bfa3c54b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:55:01.680248
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6bfa3c5630>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:55:01.682680
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f33894324e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:56:02.077626
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f3389432660>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:56:02.081768
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f0f10f9a720>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:57:01.529095
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f0f10f9a8a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:57:01.532525
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f5606d4cb40>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:58:01.926569
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5606d4ccc0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:58:01.931654
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7ff2d5d421b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:59:01.341186
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7ff2d5d42330>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 13:59:01.343454
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f14fcc24450>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:00:01.737795
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f14fcc245d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:00:01.740022
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f13dd3a3780>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:01:02.140509
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f13dd3a3900>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:01:02.143936
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f5127ee82d0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:02:01.543128
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5127ee8450>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:02:01.545632
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f2a357053c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:03:01.942736
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f2a35705540>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:03:01.945080
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f2f0099d3c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:04:01.342275
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f2f0099d540>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:04:01.344600
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f68d0f02210>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:05:01.741508
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f68d0f02390>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:05:01.744060
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fdcb1b02390>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:06:02.136135
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fdcb1b02510>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:06:02.139669
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f3f1bbac630>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:07:01.576402
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f3f1bbac7b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:07:01.578769
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fe49c767c00>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:08:01.975502
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fe49c767d80>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:08:01.978004
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7ff4ee67f120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:09:01.383339
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7ff4ee67f2a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:09:01.388280
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f21c17023f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:10:01.786013
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f21c1702570>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:10:01.788398
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f941ed02780>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:11:02.190323
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f941ed02900>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:11:02.195128
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f920f9c46c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:12:01.595184
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f920f9c4840>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:12:01.598547
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fcfa0c42510>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:13:02.006541
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fcfa0c42690>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:13:02.008956
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fd814ea3180>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:14:01.404200
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fd814ea3300>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:14:01.406404
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fb894a180c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:15:01.797464
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fb894a181b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:15:01.800010
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fb74cdf8270>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:16:02.198646
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fb74cdf83f0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:16:02.201539
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fa42a8c0120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:17:01.596104
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fa42a8c02a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:17:01.598603
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6167ac24e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:18:01.992283
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6167ac2660>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:18:01.994659
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f98d4e7c0f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:19:01.394789
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f98d4e7c240>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:19:01.396928
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f294fa9b510>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:20:01.786129
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f294fa9b690>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:20:01.788494
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f47369d34e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:21:02.190104
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f47369d3660>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:21:02.192522
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f1e7de5b690>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:22:01.591197
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f1e7de5b810>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:22:01.593886
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f56cf2d43f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:23:01.987779
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f56cf2d4570>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:23:01.990309
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f3373d3e090>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:24:01.389430
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f3373d3e180>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:24:01.391780
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f2ff5d674e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:25:01.785471
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f2ff5d67660>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:25:01.787935
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6e8e5f9660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:26:02.182145
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6e8e5f97e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:26:02.186266
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f22a54d06c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:27:01.587731
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f22a54d0840>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:27:01.591057
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f205f64d390>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:28:01.981957
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f205f64d510>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:28:01.984382
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fbb96664c00>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:29:01.377482
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fbb96664d80>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:29:01.379782
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6c4940b4b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:30:01.775373
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6c4940b630>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:30:01.777618
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fccc0d471e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:31:02.173139
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fccc0d47360>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:31:02.175280
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fbeee1c05a0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:32:01.571854
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fbeee1c0720>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:32:01.574149
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f9cf298bba0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:33:01.973567
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f9cf298bd20>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:33:01.976007
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f3e7f0953f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:34:01.372703
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f3e7f095570>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:34:01.374917
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7ff9646240c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:35:01.767628
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7ff9646241b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:35:01.769871
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fb736b4e210>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:36:02.164394
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fb736b4e390>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:36:02.166788
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f9a99081480>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:37:01.559340
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f9a99081600>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:37:01.561518
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f21bbb4e6c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:38:01.959220
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f21bbb4e840>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:38:01.961685
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f45d0462d20>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:39:01.357951
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f45d0462ea0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:39:01.360220
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fd36f026060>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:40:01.756911
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fd36f026150>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:40:01.759518
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f932f9f31e0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:41:02.157817
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f932f9f3360>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:41:02.160105
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4c9eb8d150>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:42:01.554203
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4c9eb8d2d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:42:01.556456
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fc25799d480>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:43:01.955025
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fc25799d600>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:43:01.957678
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f540ccfdd80>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:44:01.362090
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f540ccfdf00>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:44:01.364316
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fc7c47c3e40>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:45:01.816313
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fc7c4762030>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:45:01.820504
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f66f083e270>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:46:02.263438
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f66f083e3f0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:46:02.267218
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f2a9ff80720>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:47:01.735809
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f2a9ff808a0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:47:01.738296
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f4c672c3630>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:48:02.194409
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f4c672c37b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:48:02.196711
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fb815f28270>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:49:01.645717
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fb815f283f0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:49:01.648016
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f185ba1c120>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:50:02.109773
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f185ba1c270>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:50:02.112844
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f27aa39ce40>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:51:01.532672
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f27aa3380c0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:51:01.535519
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f5d381de4b0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:52:01.984429
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5d381de630>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:52:01.987158
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fc87267b360>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:53:01.445317
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fc87267b4e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:53:01.447653
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f5e4d2f00c0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:54:01.902569
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f5e4d2f01b0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:54:01.906593
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f8eed0d9510>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:55:02.451624
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f8eed0d9690>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:55:02.455511
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7ffaa98a0ed0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:56:01.951073
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7ffaa983a090>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:56:01.954498
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7f6be55110f0>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:57:01.428285
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7f6be55111e0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:57:01.430944
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fbc23138750>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:58:01.896477
+2022-10-19 07:30:00+00:00
+7
+<built-in method time of datetime.datetime object at 0x7fbc231388d0>
+0
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:58:01.900922
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fe975302660>
+1
+rent hours  2.0
+Book rent  10
+Time :  2022-10-19 14:59:02.360209
+
+hello
+2022-10-19 06:30:00+00:00
+6
+<built-in method time of datetime.datetime object at 0x7fadcac9b570>
+3
 rent hours  3.0
 Book rent  10
-Time :  2022-10-11 16:30:01.299202
+Time :  2022-10-19 15:00:01.762684
 
 hello
-rent hours  4.0
-Book rent  10
-Time :  2022-10-11 16:31:01.525785
-
-hello
-rent hours  5.0
-Book rent  10
-Time :  2022-10-11 16:32:01.740380
-
-hello
-rent hours  6.0
-Book rent  10
-Time :  2022-10-11 16:33:01.966903
-
-hello
-rent hours  7.0
-Book rent  10
-Time :  2022-10-11 16:34:01.204116
-
-hello
-rent hours  8.0
-Book rent  10
-Time :  2022-10-11 16:35:01.444137
-
-hello
-rent hours  9.0
-Book rent  10
-Time :  2022-10-11 16:36:01.669877
-
-hello
-rent hours  10.0
-Book rent  10
-Time :  2022-10-11 16:37:01.887731
-
-hello
-rent hours  11.0
-Book rent  10
-Time :  2022-10-11 16:38:02.104674
-
-hello
-rent hours  12.0
-Book rent  10
-Time :  2022-10-11 16:39:01.319819
-
-hello
-rent hours  13.0
-Book rent  10
-Time :  2022-10-11 16:40:01.537490
-
-hello
-rent hours  14.0
-Book rent  10
-Time :  2022-10-11 16:41:01.754100
-
-hello
-rent hours  15.0
-Book rent  10
-Time :  2022-10-11 16:42:01.989445
-
-hello
-rent hours  16.0
-Book rent  10
-Time :  2022-10-11 16:43:01.263300
-
-hello
-rent hours  17.0
-Book rent  10
-Time :  2022-10-11 16:44:01.499431
-
-hello
-rent hours  18.0
-Book rent  10
-Time :  2022-10-11 16:45:01.733902
-
-hello
-rent hours  19.0
-Book rent  10
-Time :  2022-10-11 16:46:01.954227
-
-hello
-rent hours  20.0
-Book rent  10
-Time :  2022-10-11 16:47:02.173057
-
-hello
-rent hours  21.0
-Book rent  10
-Time :  2022-10-11 16:48:01.399963
-
-hello
-rent hours  22.0
-Book rent  10
-Time :  2022-10-11 16:49:01.630867
-
-hello
-rent hours  23.0
-Book rent  10
-Time :  2022-10-11 16:50:01.847008
-
-hello
-rent hours  24.0
-Book rent  10
-Time :  2022-10-11 16:51:02.059953
-
-hello
-rent hours  25.0
-Book rent  10
-Time :  2022-10-11 17:00:01.289702
-
-hello
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-12 10:00:01.813100
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-12 11:00:01.879354
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-12 16:00:02.115832
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-12 17:00:01.432520
-
-hello
-rent hours  3.0
-Book rent  10
-Time :  2022-10-12 18:00:01.710203
-
-hello
-rent hours  4.0
-Book rent  10
-Time :  2022-10-12 19:00:02.037615
-
-hello
-rent hours  5.0
-Book rent  10
-Time :  2022-10-13 10:00:02.197687
-
-hello
-rent hours  6.0
-Book rent  10
-Time :  2022-10-13 11:00:01.577625
-
-hello
-rent hours  7.0
-Book rent  10
-Time :  2022-10-13 12:00:02.009303
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-13 13:00:01.479401
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-13 14:00:01.941464
-rent hours  1.0
-Book rent  10
-Time :  2022-10-13 14:00:01.944057
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
 
 hello
 
 hello
 
 hello
-
-hello
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-14 18:00:01.989657
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-14 19:00:01.573715
-rent hours  1.0
-Book rent  10
-Time :  2022-10-14 19:00:01.577051
-rent hours  1.0
-Book rent  10
-Time :  2022-10-14 19:00:01.579997
-
-hello
-
-hello
-
-hello
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-17 11:32:01.333263
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-17 11:33:01.781841
-
-hello
-rent hours  3.0
-Book rent  10
-Time :  2022-10-17 11:34:02.188144
-
-hello
-rent hours  4.0
-Book rent  10
-Time :  2022-10-17 11:35:01.625244
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-17 11:41:02.349087
-
-hello
+2022-10-19 09:30:00+00:00
+9
+<built-in method time of datetime.datetime object at 0x7f5f5f15a4b0>
 rent hours  2.0
-Book rent  10
-Time :  2022-10-17 11:42:01.828346
-
-hello
-rent hours  3.0
-Book rent  10
-Time :  2022-10-17 11:43:02.258267
-
-hello
-rent hours  4.0
-Book rent  10
-Time :  2022-10-17 11:44:01.766372
-
-hello
-rent hours  5.0
-Book rent  10
-Time :  2022-10-17 11:45:02.221156
-
-hello
-rent hours  6.0
-Book rent  10
-Time :  2022-10-17 11:46:01.722713
-
-hello
-rent hours  7.0
-Book rent  10
-Time :  2022-10-17 11:47:02.216454
-
-hello
-rent hours  8.0
-Book rent  10
-Time :  2022-10-17 11:48:01.711501
-
-hello
-rent hours  9.0
-Book rent  10
-Time :  2022-10-17 11:49:02.188924
-
-hello
-rent hours  10.0
-Book rent  10
-Time :  2022-10-17 11:50:01.648675
-
-hello
-rent hours  11.0
-Book rent  10
-Time :  2022-10-17 11:51:02.065846
-
-hello
-rent hours  12.0
-Book rent  10
-Time :  2022-10-17 11:52:01.529989
-
-hello
-rent hours  13.0
-Book rent  10
-Time :  2022-10-17 11:53:01.985774
-
-hello
-rent hours  14.0
-Book rent  10
-Time :  2022-10-17 11:54:01.478808
-
-hello
-rent hours  15.0
-Book rent  10
-Time :  2022-10-17 11:55:01.993869
-
-hello
-rent hours  16.0
-Book rent  10
-Time :  2022-10-17 11:56:01.497018
-
-hello
-rent hours  17.0
-Book rent  10
-Time :  2022-10-17 11:57:02.017788
-
-hello
-rent hours  18.0
-Book rent  10
-Time :  2022-10-17 11:58:01.454930
-
-hello
-rent hours  19.0
-Book rent  10
-Time :  2022-10-17 11:59:01.869671
-
-hello
-rent hours  20.0
-Book rent  10
-Time :  2022-10-17 12:00:02.377500
-
-hello
-rent hours  21.0
-Book rent  10
-Time :  2022-10-17 12:01:01.934672
-
-hello
-rent hours  22.0
-Book rent  10
-Time :  2022-10-17 12:02:01.387095
-
-hello
-rent hours  23.0
-Book rent  10
-Time :  2022-10-17 12:03:01.808228
-
-hello
-rent hours  24.0
-Book rent  10
-Time :  2022-10-17 12:04:02.236001
-
-hello
-rent hours  25.0
-Book rent  10
-Time :  2022-10-17 12:05:01.649792
-
-hello
-rent hours  26.0
 Book rent  10
-Time :  2022-10-17 12:06:02.077015
+Time :  2022-10-19 15:04:01.560754
 
 hello
-rent hours  27.0
-Book rent  10
-Time :  2022-10-17 12:07:01.481321
-
-hello
-rent hours  28.0
-Book rent  10
-Time :  2022-10-17 12:08:01.876745
 
 hello
-rent hours  29.0
-Book rent  10
-Time :  2022-10-17 12:09:02.271792
 
 hello
-rent hours  30.0
-Book rent  10
-Time :  2022-10-17 12:10:01.670031
 
 hello
-rent hours  31.0
-Book rent  10
-Time :  2022-10-17 12:11:02.148324
 
 hello
-rent hours  32.0
-Book rent  10
-Time :  2022-10-17 12:12:01.608820
 
 hello
-rent hours  33.0
-Book rent  10
-Time :  2022-10-17 12:13:02.091886
 
 hello
-rent hours  34.0
-Book rent  10
-Time :  2022-10-17 12:14:01.574917
 
 hello
-rent hours  35.0
-Book rent  10
-Time :  2022-10-17 12:15:02.076079
 
 hello
 
 hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-17 12:17:01.979474
 
 hello
 
@@ -750,2608 +2842,6 @@ hello
 hello
 
 hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-13:00:00
-
-hello
-13:00:00
-13:55:02
-
-hello
-13:00:00
-13:56:01
-
-hello
-13:00:00
-13:57:02
-
-hello
-13:00:00
-13:58:01
-
-hello
-13:00:00
-13:59:01
-
-hello
-13:00:00
-14:00:02
-
-hello
-13:00:00
-14:01:01
-
-hello
-13:00:00
-14:02:01
-
-hello
-13:00:00
-14:03:01
-
-hello
-13:00:00
-14:04:01
-
-hello
-13:00:00
-14:05:02
-
-hello
-13:00:00
-14:06:01
-
-hello
-13:00:00
-14:07:01
-
-hello
-13:00:00
-14:08:01
-
-hello
-13:00:00
-14:09:01
-
-hello
-13:00:00
-14:10:02
-
-hello
-13:00:00
-14:11:01
-
-hello
-13:00:00
-14:12:01
-
-hello
-13:00:00
-14:13:02
-
-hello
-13:00:00
-14:14:01
-
-hello
-13:00:00
-14:15:02
-
-hello
-13:00:00
-14:16:01
-
-hello
-13:00:00
-14:17:01
-
-hello
-13:00:00
-14:18:02
-
-hello
-13:00:00
-14:19:01
-
-hello
-13:00:00
-14:20:02
-
-hello
-13:00:00
-14:21:01
-
-hello
-13:00:00
-14:22:01
-
-hello
-13:00:00
-14:23:02
-
-hello
-13:00:00
-14:24:01
-
-hello
-13:00:00
-14:25:02
-
-hello
-13:00:00
-14:26:01
-
-hello
-13:00:00
-14:27:01
-
-hello
-13:00:00
-14:28:02
-
-hello
-13:00:00
-14:29:01
-
-hello
-13:00:00
-14:30:02
-
-hello
-13:00:00
-14:31:01
-
-hello
-13:00:00
-14:32:01
-
-hello
-13:00:00
-14:33:02
-
-hello
-13:00:00
-14:34:01
-
-hello
-13:00:00
-14:35:02
-
-hello
-13:00:00
-14:36:01
-
-hello
-13:00:00
-14:37:01
-
-hello
-13:00:00
-14:38:02
-
-hello
-13:00:00
-14:39:01
-
-hello
-13:00:00
-14:40:02
-
-hello
-13:00:00
-14:41:01
-
-hello
-13:00:00
-14:42:01
-
-hello
-13:00:00
-14:43:02
-
-hello
-13:00:00
-14:44:01
-
-hello
-
-hello
-
-hello
-13
-14:47:01
-
-hello
-
-hello
-13
-14:49:01
-
-hello
-13
-14:50:02
-
-hello
-14:51:01
-
-hello
-13
-14:52:01
-
-hello
-13
-14:53:02
-
-hello
-<class 'str'>
-
-hello
-<class 'str'>
-
-hello
-<class 'str'>
-
-hello
-<class 'str'>
-
-hello
-<class 'str'>
-
-hello
-
-hello
-hello broooo
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:00:02.183421
-
-hello
-hello broooo
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:01:01.584583
-
-hello
-hello broooo
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:02:02.017400
-
-hello
-hello broooo
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:03:01.412528
-
-hello
-hello broooo
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:04:01.808390
-
-hello
-hello broooo
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:05:02.213085
-
-hello
-hello broooo
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 15:06:01.653348
-
-hello
-hello broooo
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 15:07:02.059838
-
-hello
-hello broooo
-rent hours  3.0
-Book rent  10
-Time :  2022-10-18 15:08:01.464980
-
-hello
-hello broooo
-rent hours  4.0
-Book rent  10
-Time :  2022-10-18 15:09:01.860933
-
-hello
-hello broooo
-rent hours  5.0
-Book rent  10
-Time :  2022-10-18 15:10:02.292962
-
-hello
-hello broooo
-40
-rent hours  6.0
-Book rent  10
-Time :  2022-10-18 15:11:01.720424
-
-hello
-hello broooo
-45
-rent hours  7.0
-Book rent  10
-Time :  2022-10-18 15:12:02.158949
-
-hello
-hello broooo
-50
-rent hours  8.0
-Book rent  10
-Time :  2022-10-18 15:13:01.555148
-
-hello
-hello broooo
-55
-rent hours  9.0
-Book rent  10
-Time :  2022-10-18 15:14:01.990992
-
-hello
-hello broooo
-60
-rent hours  10.0
-Book rent  10
-Time :  2022-10-18 15:15:01.399331
-
-hello
-hello broooo
-65
-rent hours  11.0
-Book rent  10
-Time :  2022-10-18 15:16:01.796618
-
-hello
-hello broooo
-70
-rent hours  12.0
-Book rent  10
-Time :  2022-10-18 15:17:02.185980
-
-hello
-hello broooo
-75
-rent hours  13.0
-Book rent  10
-Time :  2022-10-18 15:18:01.588327
-
-hello
-hello broooo
-80
-rent hours  14.0
-Book rent  10
-Time :  2022-10-18 15:19:01.986194
-
-hello
-hello broooo
-85
-rent hours  15.0
-Book rent  10
-Time :  2022-10-18 15:20:01.387605
-
-hello
-hello broooo
-90
-rent hours  16.0
-Book rent  10
-Time :  2022-10-18 15:21:01.789855
-
-hello
-hello broooo
-95
-rent hours  17.0
-Book rent  10
-Time :  2022-10-18 15:22:02.186839
-
-hello
-hello broooo
-100
-rent hours  18.0
-Book rent  10
-Time :  2022-10-18 15:23:01.587465
-
-hello
-hello broooo
-105
-rent hours  19.0
-Book rent  10
-Time :  2022-10-18 15:24:01.992816
-
-hello
-hello broooo
-110
-rent hours  20.0
-Book rent  10
-Time :  2022-10-18 15:25:01.381993
-
-hello
-hello broooo
-115
-rent hours  21.0
-Book rent  10
-Time :  2022-10-18 15:26:01.773292
-
-hello
-hello broooo
-120
-rent hours  22.0
-Book rent  10
-Time :  2022-10-18 15:27:02.169701
-
-hello
-hello broooo
-125
-rent hours  23.0
-Book rent  10
-Time :  2022-10-18 15:28:01.609353
-
-hello
-hello broooo
-130
-rent hours  24.0
-Book rent  10
-Time :  2022-10-18 15:29:02.028491
-
-hello
-hello broooo
-135
-rent hours  25.0
-Book rent  10
-Time :  2022-10-18 15:30:01.421151
-
-hello
-hello broooo
-140
-rent hours  26.0
-Book rent  10
-Time :  2022-10-18 15:31:01.813769
-
-hello
-hello broooo
-145
-rent hours  27.0
-Book rent  10
-Time :  2022-10-18 15:32:02.212663
-rent hours  0.0
-Book rent  10
-Time :  2022-10-18 15:32:02.215090
-hello broooo
-15
-rent hours  4.0
-Book rent  10
-Time :  2022-10-18 15:32:02.217635
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 15:59:02.158441
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 15:59:02.162028
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:00:01.565502
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:00:01.569281
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:01:02.022703
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:01:02.025315
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:02:01.488622
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:02:01.490928
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:03:01.979891
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:03:01.982725
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:04:01.476632
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:04:01.479948
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:05:01.990075
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:05:01.993026
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:06:01.491064
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:06:01.493828
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:07:01.991033
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:07:01.994552
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:08:01.478353
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:08:01.480920
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:09:01.909732
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:09:01.911902
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:10:02.365979
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:10:02.368097
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:11:01.889848
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:11:01.892232
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:12:02.384093
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:12:02.387818
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:13:01.860652
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:13:01.865050
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:14:02.317478
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:14:02.320405
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:15:01.790688
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:15:01.792883
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:16:02.231713
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:16:02.235733
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:17:01.690750
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:17:01.692982
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:18:02.167598
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:18:02.169823
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:19:01.623229
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:19:01.627433
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:20:02.096132
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:20:02.098655
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:21:01.678231
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:21:01.681671
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:22:02.152546
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:22:02.154836
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:23:01.604806
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:23:01.607024
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:24:02.036280
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:24:02.038542
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:25:01.506139
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:25:01.508453
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:26:01.954203
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:26:01.956831
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:27:01.433389
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:27:01.436387
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:28:01.858303
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:28:01.861148
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:29:02.339689
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:29:02.342275
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:30:01.768923
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:30:01.772729
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:31:02.241198
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:31:02.243379
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:32:01.726837
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:32:01.729406
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:33:02.180411
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:33:02.183183
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:34:01.649773
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:34:01.652545
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:35:02.066090
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:35:02.069154
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:36:01.456561
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:36:01.458698
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:37:01.863334
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:37:01.865592
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:38:02.264357
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:38:02.266786
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:39:01.657930
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:39:01.660113
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:40:02.054278
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:40:02.056468
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:41:01.494204
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:41:01.498863
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:42:01.911055
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:42:01.914482
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:43:02.309291
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:43:02.311454
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:44:01.748738
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:44:01.751228
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:45:02.145785
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:45:02.148371
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:46:01.551405
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:46:01.554057
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:47:01.949438
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:47:01.952445
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:48:01.404447
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:48:01.407314
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:49:01.803610
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:49:01.805947
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:50:02.240469
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:50:02.244072
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:51:01.646277
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:51:01.648714
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:52:02.042925
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:52:02.045380
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:53:01.435884
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:53:01.439809
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:54:01.850673
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:54:01.852878
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:55:02.282231
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:55:02.286530
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:56:01.682279
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:56:01.684414
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:57:02.076129
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:57:02.078550
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:58:01.474335
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:58:01.476439
-
-hello
-rent hours  1.0
-Book rent  10
-Time :  2022-10-18 16:59:01.913290
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 16:59:01.916007
-
-hello
-hello broooo
-15
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:00:02.310526
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:00:02.312813
-
-hello
-hello broooo
-20
-rent hours  3.0
-Book rent  10
-Time :  2022-10-18 17:01:01.702378
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:01:01.704387
-
-hello
-hello broooo
-25
-rent hours  4.0
-Book rent  10
-Time :  2022-10-18 17:02:02.102266
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:02:02.106455
-
-hello
-hello broooo
-30
-rent hours  5.0
-Book rent  10
-Time :  2022-10-18 17:03:01.551902
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:03:01.553972
-
-hello
-hello broooo
-35
-rent hours  6.0
-Book rent  10
-Time :  2022-10-18 17:04:01.950638
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:04:01.955434
-
-hello
-hello broooo
-40
-rent hours  7.0
-Book rent  10
-Time :  2022-10-18 17:05:01.356041
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:05:01.358798
-
-hello
-hello broooo
-45
-rent hours  8.0
-Book rent  10
-Time :  2022-10-18 17:06:01.751543
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:06:01.756780
-
-hello
-hello broooo
-50
-rent hours  9.0
-Book rent  10
-Time :  2022-10-18 17:07:02.150759
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:07:02.152826
-
-hello
-hello broooo
-55
-rent hours  10.0
-Book rent  10
-Time :  2022-10-18 17:08:01.545480
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:08:01.548015
-
-hello
-hello broooo
-60
-rent hours  11.0
-Book rent  10
-Time :  2022-10-18 17:09:01.947664
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:09:01.949828
-
-hello
-hello broooo
-65
-rent hours  12.0
-Book rent  10
-Time :  2022-10-18 17:10:01.339993
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:10:01.342025
-
-hello
-hello broooo
-70
-rent hours  13.0
-Book rent  10
-Time :  2022-10-18 17:11:01.733726
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:11:01.736047
-
-hello
-hello broooo
-75
-rent hours  14.0
-Book rent  10
-Time :  2022-10-18 17:12:02.130637
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:12:02.132963
-
-hello
-hello broooo
-80
-rent hours  15.0
-Book rent  10
-Time :  2022-10-18 17:13:01.528050
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:13:01.530541
-
-hello
-hello broooo
-85
-rent hours  16.0
-Book rent  10
-Time :  2022-10-18 17:14:01.926218
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:14:01.928810
-
-hello
-hello broooo
-90
-rent hours  17.0
-Book rent  10
-Time :  2022-10-18 17:15:02.324455
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:15:02.327260
-
-hello
-hello broooo
-95
-rent hours  18.0
-Book rent  10
-Time :  2022-10-18 17:16:01.759396
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:16:01.761792
-
-hello
-hello broooo
-100
-rent hours  19.0
-Book rent  10
-Time :  2022-10-18 17:17:02.154768
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:17:02.159260
-
-hello
-hello broooo
-105
-rent hours  20.0
-Book rent  10
-Time :  2022-10-18 17:18:01.601346
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:18:01.604909
-
-hello
-hello broooo
-110
-rent hours  21.0
-Book rent  10
-Time :  2022-10-18 17:19:01.995541
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:19:01.997818
-
-hello
-hello broooo
-115
-rent hours  22.0
-Book rent  10
-Time :  2022-10-18 17:20:01.389301
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:20:01.392356
-
-hello
-hello broooo
-120
-rent hours  23.0
-Book rent  10
-Time :  2022-10-18 17:21:01.826409
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:21:01.828562
-
-hello
-hello broooo
-125
-rent hours  24.0
-Book rent  10
-Time :  2022-10-18 17:22:02.220784
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:22:02.223314
-
-hello
-hello broooo
-130
-rent hours  25.0
-Book rent  10
-Time :  2022-10-18 17:23:01.614992
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:23:01.617092
-
-hello
-hello broooo
-135
-rent hours  26.0
-Book rent  10
-Time :  2022-10-18 17:24:02.009217
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:24:02.011890
-
-hello
-hello broooo
-140
-rent hours  27.0
-Book rent  10
-Time :  2022-10-18 17:25:01.410234
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:25:01.412972
-
-hello
-hello broooo
-145
-rent hours  28.0
-Book rent  10
-Time :  2022-10-18 17:26:01.804287
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:26:01.807127
-
-hello
-hello broooo
-150
-rent hours  29.0
-Book rent  10
-Time :  2022-10-18 17:27:02.195207
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:27:02.197645
-
-hello
-hello broooo
-155
-rent hours  30.0
-Book rent  10
-Time :  2022-10-18 17:28:01.588397
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:28:01.590566
-
-hello
-hello broooo
-160
-rent hours  31.0
-Book rent  10
-Time :  2022-10-18 17:29:01.984308
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:29:01.986646
-
-hello
-hello broooo
-165
-rent hours  32.0
-Book rent  10
-Time :  2022-10-18 17:30:01.376633
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:30:01.378949
-
-hello
-hello broooo
-170
-rent hours  33.0
-Book rent  10
-Time :  2022-10-18 17:31:01.815088
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:31:01.817717
-
-hello
-hello broooo
-175
-rent hours  34.0
-Book rent  10
-Time :  2022-10-18 17:32:02.208719
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:32:02.210960
-
-hello
-hello broooo
-180
-rent hours  35.0
-Book rent  10
-Time :  2022-10-18 17:33:01.610791
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:33:01.612881
-
-hello
-hello broooo
-185
-rent hours  36.0
-Book rent  10
-Time :  2022-10-18 17:34:02.020905
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:34:02.023354
-
-hello
-hello broooo
-190
-rent hours  37.0
-Book rent  10
-Time :  2022-10-18 17:35:01.416720
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:35:01.420665
-
-hello
-hello broooo
-195
-rent hours  38.0
-Book rent  10
-Time :  2022-10-18 17:36:01.820154
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:36:01.822386
-
-hello
-hello broooo
-200
-rent hours  39.0
-Book rent  10
-Time :  2022-10-18 17:37:02.213282
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:37:02.215382
-
-hello
-hello broooo
-205
-rent hours  40.0
-Book rent  10
-Time :  2022-10-18 17:38:01.609655
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:38:01.611915
-
-hello
-hello broooo
-210
-rent hours  41.0
-Book rent  10
-Time :  2022-10-18 17:39:02.052365
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:39:02.056676
-
-hello
-hello broooo
-215
-rent hours  42.0
-Book rent  10
-Time :  2022-10-18 17:40:01.458526
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:40:01.460700
-
-hello
-hello broooo
-220
-rent hours  43.0
-Book rent  10
-Time :  2022-10-18 17:41:01.865191
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:41:01.867502
-
-hello
-hello broooo
-225
-rent hours  44.0
-Book rent  10
-Time :  2022-10-18 17:42:02.258580
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:42:02.260827
-
-hello
-hello broooo
-230
-rent hours  45.0
-Book rent  10
-Time :  2022-10-18 17:43:01.673389
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:43:01.678566
-
-hello
-hello broooo
-235
-rent hours  46.0
-Book rent  10
-Time :  2022-10-18 17:44:02.085655
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:44:02.090512
-
-hello
-hello broooo
-240
-rent hours  47.0
-Book rent  10
-Time :  2022-10-18 17:45:01.494686
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:45:01.498876
-
-hello
-hello broooo
-245
-rent hours  48.0
-Book rent  10
-Time :  2022-10-18 17:46:01.901133
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:46:01.905474
-
-hello
-hello broooo
-250
-rent hours  49.0
-Book rent  10
-Time :  2022-10-18 17:47:02.300885
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:47:02.305877
-
-hello
-hello broooo
-255
-rent hours  50.0
-Book rent  10
-Time :  2022-10-18 17:48:01.739312
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:48:01.741676
-
-hello
-hello broooo
-260
-rent hours  51.0
-Book rent  10
-Time :  2022-10-18 17:49:02.175302
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:49:02.177676
-
-hello
-hello broooo
-265
-rent hours  52.0
-Book rent  10
-Time :  2022-10-18 17:50:01.617247
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:50:01.619533
-
-hello
-
-hello
-
-hello
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:54:01.385233
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:54:01.387532
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:54:01.389616
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:55:01.789182
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:55:01.791517
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:55:01.793672
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:56:02.289654
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:56:02.295237
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:56:02.299572
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:57:01.774036
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:57:01.777151
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:57:01.781346
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:58:02.254862
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:58:02.257692
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:58:02.260213
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:59:01.656415
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:59:01.659039
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 17:59:01.661812
-
-hello
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 18:00:02.125920
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 18:00:02.128239
-rent hours  2.0
-Book rent  10
-Time :  2022-10-18 18:00:02.130374
 
 hello
 

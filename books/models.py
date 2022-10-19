@@ -43,9 +43,8 @@ class RentalDetail(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user_name')
     book = models.ForeignKey(Book, on_delete=models.CASCADE, related_name='book_name')
     rent_hours = models.FloatField(default=0)
-    issue_date = models.DateTimeField(default=timezone.now)
-    issue_time = models.TimeField()
-    return_time = models.TimeField()
+    issue_date = models.DateTimeField(null=True)
+    return_time = models.DateTimeField(null=True)
     total_rent = models.IntegerField(default=0)
     status_choices = (('Approved', 'Approved'),
                       ('Not Approved', 'Not Approved'),

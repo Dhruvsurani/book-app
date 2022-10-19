@@ -9,16 +9,18 @@ def rent_total():
 
     print('\nhello')
     rent_queryset = RentalDetail.objects.filter(status='Approved')
-    now = datetime.datetime.now()
-    current_time = now.strftime("%H:%M:%S")
+
     for i in rent_queryset:
-        rt_hr = int(i.return_time.hour)
-        ct_hr = int(current_time[0:2])
-        if ct_hr >= rt_hr:
-            print('hello broooo')
-            i.rent_hours += 1
-            i.total_rent = i.total_rent + 5
-            print(i.total_rent)
+        print(i.issue_date)
+        print(i.issue_date.hour)
+        print(i.issue_date.time)
+        if i.return_time is not None:
+            hr_total = i.return_time.hour - i.issue_date.hour
+            if hr_total > i.rent_hours:
+                i.rent_hours += 1
+                i.total_rent = i.total_rent + 5
+            print(hr_total)
+
         i.save()
         print('rent hours ',i.rent_hours)
         print('Book rent ',i.book.book_rent)
